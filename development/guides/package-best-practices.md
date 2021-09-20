@@ -2,7 +2,7 @@
 title: Package Development Best Practices Checklist
 description: A short checklist for module developers with best practices as discovered by the community.
 published: true
-date: 2021-06-17T15:22:02.520Z
+date: 2021-08-24T13:40:44.872Z
 tags: localization, development, guide, manifest, code, files, paths
 editor: markdown
 dateCreated: 2020-11-12T14:02:50.522Z
@@ -80,3 +80,26 @@ From Atropos:
 > The risk of this kind of failure will always be higher for modules which fundamentally exist for the purpose of overwriting core functions to behave differently in ways that are not allowed by the supported API. Not to pick on the "Perfect Vision" module - but it excavates most of the vision/lighting rendering of Foundry VTT and replaces it with different logic. A module like this is extremely vulnerable to all sorts of breaks in ways that I cannot possibly account for when I am making development decisions.
 >
 > If you're writing a module that carves out the guts of a core Foundry VTT function and replaces it with entirely different logic - it would be prudent to have some way to abort or fall-back to the core logic in cases where your overridden logic fails
+
+## UI Practices
+
+### Sidebar Tab Action Buttons
+When adding buttons to the Heading of a Sidebar Tab, append your buttons to the `.actions-buttons` div and not to the `.directory-header` div.
+
+```js
+Hooks.on('renderJournalDirectory', (app, html, data) => {
+    const actionButtons = html.find('.action-buttons');
+    const myButton = '<button>My Button</button>';
+    actionsButton.append(myButton);
+});
+```
+
+By default, this will make all buttons in the header squish down to hide their text before wrapping, if you wish to avoid that behavior, add some CSS to `.actions-buttons button` which forces their `min-width` to be `max-content`, for bonus compatibility with some systems, also add `white-space: nowrap`.
+
+```css
+.actions-buttons button {
+    min-width: max-content;
+    white-space: nowrap;
+}
+```
+

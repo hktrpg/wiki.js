@@ -2,8 +2,8 @@
 title: Translations
 description: Community made translations of Foundry VTT and various game systems available for it.
 published: true
-date: 2021-04-21T16:28:40.248Z
-tags: localization, translations, foundry vtt, game systems
+date: 2021-09-11T19:14:24.295Z
+tags: 
 editor: markdown
 dateCreated: 2020-09-23T00:25:06.218Z
 ---
@@ -285,8 +285,8 @@ This module adds the option to select the Korean language from the FoundryVTT se
 * **Foundry VTT Compatibility**: 0.5+
 
 #### Link(s) to Translation
-* GitLab: [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese)
-* Manifest: [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json)
+* GitLab: [https://gitlab.com/fvtt-brasil/core](https://gitlab.com/fvtt-brasil/core)
+* Manifest: [https://gitlab.com/fvtt-brasil/core/-/raw/master/pt-BR/module.json](https://gitlab.com/fvtt-brasil/core/-/raw/master/pt-BR/module.jsonn)
 
 #### Description
 This module adds the option to select the Português (Brasil) language from the FoundryVTT settings menu. Selecting this option will translate various aspects of the program interface.
@@ -395,17 +395,78 @@ För närvarande mestadels maskinöversatt, går långsamt igenom och förbättr
 | zh-Hans | Chinese (simplified) / 中文（简体） | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/xtlcme/foundry-vtt-chn/) | *none* | <i class="fas fa-comments"></i> Tencent QQ Group #: **716573917** | [HBuilder X](https://www.dcloud.io/hbuilderx.html) (locally) |
 | zh-Hant | Chinese (traditional) / 正體中文 |  <i class="fab fa-github"></i> [GitHub](https://github.com/hktrpg/foundry_zh-tw/) | *none* | <i class="fab fa-discord"></i> [HKTRPG Foundry VTT  C](https://discord.gg/vx4kcm7)  | [Visual Studio Code](https://code.visualstudio.com/) (locally) |
 | cs-CZ | Czech / čeština | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/ptoseklukas/foundryvtt-lang-cs-cz) | *none* | <i class="fab fa-discord"></i> [The Foundry CZ komunita](https://discord.gg/7dHDqEW) (also Slovak) | [Transifex](https://www.transifex.com/foundryvtt-czech/public/) |
-| fi-FI | Finnish / suomi | *work in progress* | ? | <i class="fab fa-discord"></i> [Foundry VTT Suomi](https://discord.gg/U4y3cNebbg) | [Transifex: Foundry VTT Community Translations](https://www.transifex.com/fvtt-community-l10n/public/) |
+| fi-FI | Finnish / suomi | *work in progress* | MIT | <i class="fab fa-discord"></i> [Foundry VTT Suomi](https://discord.gg/U4y3cNebbg) | [Transifex: Foundry VTT Community Translations](https://www.transifex.com/fvtt-community-l10n/public/) |
 | fr-FR | French / français | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr) | *none* | <i class="fab fa-discord"></i> [La Fonderie](https://discord.gg/pPSDNJk) | [Visual Studio Code](https://code.visualstudio.com/) (locally) |
 | de-DE | German / Deutsch | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/Hydroxi/foundryvtt-lang-de-de) | *none* | <i class="fab fa-discord"></i> [Die Gießerei (FoundryVTT)](https://discord.gg/XrKAZ5J) | ? |
 | it-IT | Italian / italiano | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/riccisi/foundryvtt-lang-it-it) | *none* | <i class="fab fa-discord"></i> [Foundry_ITA](https://discord.gg/hsRcTby) | [Transifex](https://www.transifex.com/foundryvtt-ita/public) |
 | ja-JP | Japanese / 日本語 | <i class="fab fa-github"></i> [GitHub](https://github.com/BrotherSharper/foundryVTTja) | *none* | <i class="fab fa-discord"></i> [オンセ工房日本支部(Foundry VTT)](https://discord.gg/vM4YM27) | [Visual Studio Code](https://code.visualstudio.com/) (locally) |
 | ko-KR | Korean / 한국어 | <i class="fab fa-github"></i> [GitHub](https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR) | *none* | <i class="fab fa-discord"></i> [FVTT Korea(비공식)](https://discord.gg/DRbbn5w) | ? |
 | pl-PL | Polish / polski | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/fvtt-poland/core) | [GPL v3](https://gitlab.com/fvtt-poland/core/-/blob/main/LICENSE) | ? | [Transifex: Foundry VTT Community Translations](https://www.transifex.com/fvtt-community-l10n/public/) |
-| pt-BR | Portuguese (Brazil) / Português (Brasil) | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese) | [MIT](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/-/blob/master/LICENSE) | <i class="fab fa-discord"></i> [Foundry VTT Brasil](https://discord.gg/XNC86FBnQ2) | [Transifex: Foundry VTT Community Translations](https://www.transifex.com/fvtt-community-l10n/public/) |
+| pt-BR | Portuguese (Brazil) / Português (Brasil) | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/fvtt-brasil/core) | [MIT](https://gitlab.com/fvtt-brasil/core/-/blob/master/LICENSE) | <i class="fab fa-discord"></i> [Foundry VTT Brasil](https://discord.gg/XNC86FBnQ2) | [Transifex: Foundry VTT Community Translations](https://www.transifex.com/fvtt-community-l10n/public/) |
 | ru-RU | Russian / русский | <i class="fab fa-github"></i> [GitHub](https://github.com/Phenomen/foundry-vtt-ru) | *none* | <i class="fab fa-discord"></i> [Foundry VTT Russian Community](https://discord.gg/Z2CXFy35WF) | [i18n editor](https://github.com/jcbvm/i18n-editor) (locally) |
 | es-ES | Spanish / español | <i class="fab fa-gitlab"></i> [GitLab](https://gitlab.com/carlosjrlu/foundryvtt-es) | *none* | <i class="fab fa-discord"></i> [Foundry VTT Español](https://discord.gg/MHCerwd) (also Catalan) | [POEditor](https://poeditor.com/), [Transifex](https://www.transifex.com/none-738/public/), [Weblate](https://trans.etranslator.eu/projects/fvtt-system-swade/en-json/) (shared with Catalan), custom R code (locally) |
 | sv-SE | Swedish / Svenska | <i class="fab fa-github"></i> [GitHub](https://github.com/xdy/FoundryVTT-lang-sv) | [MIT](https://github.com/xdy/foundryvtt-lang-sv/blob/master/LICENSE) | *none* | [IntelliJ IDEA](https://www.jetbrains.com/idea/) (locally) |
+
+# Core Localization File Compatibility
+The table below lists various statistics of the core English translation file across different Foundry VTT versions. The data are intended to help translators determine whether it is necessary for them to update their core translation and for users who are using older version of the application to figure out if a core translation file for one version of the application will work in another version.
+
+> The caveat is that this data are only for the core English translation file that comes with the application. Although in theory the data should be applicable for other languages, it may not be.
+{.is-warning}
+
+<table>
+	<thead>
+	<tr>
+		<th rowspan="2" style="border-right:1px solid;">Foundry VTT Version</th>
+		<th colspan="2" style="border:none;border-left:1px solid;border-right:1px solid;">Combatible</th>
+		<th colspan="3" style="border:none;border-left:1px solid;border-right:1px solid;">Keys<a href="#footnote-1"><sup>1</sup></a></th>
+		<th colspan="3" style="border:none;border-left:1px solid;border-right:1px solid;">Characters<a href="#footnote-1"><sup>1</sup></a></th>
+		<th colspan="2" style="border:none;border-left:1px solid;">Words<a href="#footnote-1"><sup>1</sup></a> <a href="#footnote-2"><sup>2</sup></a></th>
+	</tr>
+	<tr style="text-align:right;">
+		<th style="border-left:1px solid;">Backwards<a href="#footnote-3"><sup>3</sup></a></th>
+		<th style="border-right:1px solid;">Forwards<a href="#footnote-4"><sup>4</sup></a></th>
+		<th style="border-left:1px solid;">Added</th>
+		<th>Changed</th>
+		<th style="border-right:1px solid;">Removed</th>
+		<th style="border-left:1px solid;">Added</th>
+		<th>Changed</th>
+		<th style="border-right:1px solid;">Removed</th>
+		<th style="border-left:1px solid;">Added</th>
+		<th>Removed</th>
+	</tr>
+	</thead>
+	<tbody style="text-align:right;">
+		<tr><td>0.7.0</td><td><i>?</i></td><td>No</td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td><td><i>?</i></td></tr>
+		<tr><td>0.7.1</td><td>No</td><td>No</td><td>56</td><td>4</td><td>7</td><td>1622</td><td>20</td><td>126</td><td>247</td><td>21</td></tr>
+		<tr><td>0.7.2</td><td>No</td><td>No</td><td>48</td><td>5</td><td>5</td><td>1601</td><td>80</td><td>68</td><td>246</td><td>10</td></tr>
+		<tr><td>0.7.3</td><td>No</td><td>No</td><td>58</td><td>2</td><td>2</td><td>1612</td><td>77</td><td>157</td><td>253</td><td>26</td></tr>
+		<tr><td>0.7.4</td><td>No</td><td>No</td><td>117</td><td>4</td><td>15</td><td>2663</td><td>111</td><td>386</td><td>407</td><td>59</td></tr>
+		<tr><td>0.7.5</td><td><strong>Yes</strong></td><td>No</td><td>11</td><td>0</td><td>0</td><td>1001</td><td>0</td><td>0</td><td>148</td><td>0</td></tr>
+		<tr><td>0.7.6</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>7</td><td>0</td><td>0</td><td>48</td><td>0</td><td>0</td><td>9</td><td>0</td></tr>
+		<tr><td>0.7.7</td><td><strong>Yes</strong></td><td>No</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+		<tr><td>0.7.8</td><td><strong>Yes</strong></td><td>No</td><td>2</td><td>0</td><td>0</td><td>188</td><td>0</td><td>0</td><td>27</td><td>0</td></tr>
+		<tr><td>0.7.9</td><td>No</td><td><strong>Yes</strong></td><td>2</td><td>0</td><td>2</td><td>249</td><td>0</td><td>188</td><td>37</td><td>27</td></tr>
+		<tr><td>0.7.10</td><td><strong>Yes</strong></td><td>No</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+		<tr><td>0.8.0</td><td>No</td><td>No</td><td>62</td><td>2</td><td>2</td><td>2070</td><td>9</td><td>23</td><td>317</td><td>4</td></tr>
+		<tr><td>0.8.1</td><td>No</td><td>No</td><td>67</td><td>14</td><td>9</td><td>1604</td><td>122</td><td>764</td><td>256</td><td>103</td></tr>
+		<tr><td>0.8.2</td><td>No</td><td>No</td><td>49</td><td>10</td><td>2</td><td>1877</td><td>423</td><td>259</td><td>299</td><td>37</td></tr>
+		<tr><td>0.8.3</td><td>No</td><td>No</td><td>4</td><td>3</td><td>0</td><td>273</td><td>28</td><td>0</td><td>45</td><td>0</td></tr>
+		<tr><td>0.8.4</td><td>No</td><td><strong>Yes</strong></td><td>10</td><td>6</td><td>3</td><td>203</td><td>148</td><td>50</td><td>30</td><td>8</td></tr>
+		<tr><td>0.8.5</td><td><strong>Yes</strong></td><td>No</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+		<tr><td>0.8.6</td><td><strong>Yes</strong></td><td>No</td><td>37</td><td>0</td><td>0</td><td>1049</td><td>0</td><td>0</td><td>175</td><td>0</td></tr>
+		<tr><td>0.8.7</td><td>No</td><td>No</td><td>9</td><td>10</td><td>3</td><td>359</td><td>95</td><td>43</td><td>53</td><td>8</td></tr>
+		<tr><td>0.8.8</td><td><strong>Yes</strong></td><td>No</td><td>2</td><td>0</td><td>0</td><td>18</td><td>0</td><td>0</td><td>4</td><td>0</td></tr>
+		<tr><td>0.8.9</td><td>No</td><td><i>?</i></td><td>3</td><td>4</td><td>0</td><td>136</td><td>39</td><td>0</td><td>23</td><td>0</td></tr>
+	</tbody>
+</table>
+
+**<a id="footnote-1"><sup>1</sup></a>**: These values are in comparison to the *previous* version's (row's) translation file.
+
+**<a id="footnote-2"><sup>2</sup></a>**: Words were counted by naïvely splitting strings by whitespaces which may not be accurate.
+
+**<a id="footnote-3"><sup>3</sup></a>**: With translation files, *backwards compatibility* means that the file for the FVTT version on the current row A is compatible with the FVTT version on the **previous** row B. This property of the translation file is chainable: if the previous row B is **also** backwards compatible with the next previous row C, the original file A is also compatible with this oldest version C. For example the core translation for **FVTT 0.7.8** will work all the way back with **FVTT 0.7.4**.
+
+**<a id="footnote-4"><sup>4</sup></a>**: With translation files, *forwards compatibility* means that the file for the FVTT version on the current row A is compatible with the FVTT version on the **next** row B. This property of the translation file is chainable: if the next row B is **also** forwards compatible with the row C after that, the original file A is also compatible with this newest version C. For example the core translation for **FVTT 0.7.6** will also work with **FVTT 0.7.7**.
 
 # Appendix
 

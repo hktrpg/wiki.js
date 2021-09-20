@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-22T14:14:53.523Z
+date: 2021-08-22T22:03:08.057Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-14T17:58:11.311Z
@@ -17,13 +17,12 @@ dateCreated: 2021-05-14T17:58:11.311Z
 - [Suomi (Finnish)](/fi/home)
 - [Français (French)](/fr/home)
 - [日本語 (Japanese)](/ja/home)
-- <a href="https://foundryvtt.wiki/zh-tw/home">正體中文 (Traditional Chinese)</a>
+- 正體中文 (Traditional Chinese) https://foundryvtt.wiki/zh-tw/home
 
 ## Official Resources
 <i class="fas fa-dice-d20"></i> [Foundry Virtual Tabletop website](http://foundryvtt.com)
 <i class="fab fa-discord"></i> [Discord](https://discordapp.com/invite/DDBZUDf)
 <i class="fab fa-twitter"></i> [Twitter](https://twitter.com/FoundryVTT)
-<i class="fab fa-reddit"></i> [Subreddit](https://www.reddit.com/r/FoundryVTT/)
 <i class="fab fa-youtube"></i> [YouTube](https://www.youtube.com/c/FoundryNet)
 <i class="fab fa-twitch"></i> [Twitch](https://www.twitch.tv/foundryvtt)
 <i class="fab fa-patreon"></i> [Patreon](https://www.patreon.com/foundryvtt/overview)
@@ -32,8 +31,10 @@ dateCreated: 2021-05-14T17:58:11.311Z
 
 ## Communities
 <i class="fab fa-discord"></i> [Discord: League of Extraordinary FoundryVTT Developers](https://discord.gg/2rHs78h) – Unofficial module, system and content developers.
+<i class="fab fa-reddit"></i> [Reddit: /r/FoundryVTT subreddit](https://www.reddit.com/r/FoundryVTT/) – Independently-run community for Foundry troublshooting and sharing your Foundry creativity.
+<i class="fas fa-users"></i> [Foundry Hub](https://foundryvtt-hub.com/) - Partnered Foundry blog and forums for high quality articles and discussion.
 
-### Local Communities
+### Regional Communities
 <i class="fab fa-discord"></i> [Discord: Foundry VTT Español](https://discord.gg/MHCerwd) – Unofficial Spanish community.
 <i class="fab fa-discord"></i> [Discord: Foundry_ITA](https://discord.gg/hsRcTby) – Unofficial Italian community.
 <i class="fab fa-discord"></i> [Discord: オンセ工房日本支部(Foundry VTT)](https://discord.gg/vM4YM27) – Unofficial Japanese community.
@@ -60,7 +61,7 @@ The **official** demo runs the **latest release** of FVTT and is available for a
 Link: https://demo.forge-vtt.com/
 Password: `forge`
 
-The Forge demo (FVTT **0.6.6**) is hosted by The Forge. It includes a tutorial for first time users and additional tweaks to the Foundry VTT experience for The Forge hosting platform.
+The Forge demo is hosted by The Forge. It includes a tutorial for first time users and additional tweaks to the Foundry VTT experience for The Forge hosting platform.
 
 ## Collaborative Modules
 Below are the Foundry VTT Community Wiki contributed modules. Anyone can share their content with the rest of the community via Pull request to be merged into a module update.

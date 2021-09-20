@@ -2,8 +2,8 @@
 title: Repository Bling
 description: A quick guide to tricking out your repository readme.
 published: true
-date: 2021-04-21T16:43:01.549Z
-tags: 
+date: 2021-07-01T12:40:04.483Z
+tags: repo bling, badges, shields
 editor: markdown
 dateCreated: 2021-02-06T02:17:25.208Z
 ---
@@ -90,8 +90,22 @@ https://foundryshields.com/version?url=https://github.com/vigoren/foundryvtt-sim
 ![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/vigoren/foundryvtt-simple-calendar/releases/download/v1.2.20/module.json)
 ```
 
-(Live) Example
+(Live) Example:
 ![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/vigoren/foundryvtt-simple-calendar/releases/download/v1.2.20/module.json)
+
+### License
+Open Source licenses are a necessity if you wish to have your package be forkable. Showing off which license you have front-and-center is a nice way to inform people if this project can live on after you no longer wish to maintain it.
+
+It also informs people what terms they are allowed to use parts of your Source Code under.
+
+```
+![Repository License](https://img.shields.io/github/license/[YOUR_USERNAME]/[YOUR_REPO])
+```
+
+(Live) Example:
+![Repository License](https://img.shields.io/github/license/League-of-Foundry-Developers/foundryvtt-devMode)
+
+
 
 ### Basic Label + Url
 

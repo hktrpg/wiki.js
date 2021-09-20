@@ -2,7 +2,7 @@
 title: Linux Installation Guide
 description: Sets up Foundry on linux with Caddy as reverse proxy. 
 published: true
-date: 2021-05-20T19:37:06.435Z
+date: 2021-08-21T18:18:05.647Z
 tags: linux, raspberry pi, installation, debian, ubuntu, centos, caddy, reverse proxy, cyberduck
 editor: markdown
 dateCreated: 2021-05-05T21:54:44.555Z
@@ -237,7 +237,7 @@ At the end of this section you will have a functional installation of Foundry us
 <a id="C3" href="#C3">C3.</a>	Run the following commands, pasting the download url where you see `<download url>`. In most terminals, you can right click to paste the copied url.
 ```
 mkdir ~/foundry
-wget -O ~/foundry/foundryvtt.zip "<download url>"
+wget --output-document ~/foundry/foundryvtt.zip "<download url>"
 ```
 > Make sure to include the quote symbols before and after the `<download url>` or the file may not download properly. {.is-info}
 
@@ -314,6 +314,7 @@ pm2 save
   your.hostname.com {
       # PROXY ALL REQUEST TO PORT 30000
       reverse_proxy localhost:30000
+      encode zstd gzip
   }
 
   # Refer to the Caddy docs for more information:
@@ -332,17 +333,20 @@ pm2 save
   # A CONFIG SECTION FOR YOUR IP AND HOSTNAME
   
   {
-  		default_sni your.internal.ip.address
+      default_sni your.internal.ip.address
   }
   
   your.internal.ip.address {
-  		tls internal
-  		reverse_proxy localhost:30000
+      # PROXY ALL REQUEST TO PORT 30000
+      tls internal
+      reverse_proxy localhost:30000
+      encode zstd gzip
   }
   
   your.hostname.com {
       # PROXY ALL REQUEST TO PORT 30000
       reverse_proxy localhost:30000
+      encode zstd gzip
   }
 
   # Refer to the Caddy docs for more information:
